@@ -1,0 +1,149 @@
+{
+  "episodic_memories": [
+    {
+      "id": 1,
+      "content": "2023年5月15日下午3点，我在星巴克咖啡店遇到了大学同学李明。",
+      "importance": 0.75,
+      "confidence": 0.9,
+      "extracted_info": {
+        "type": "episodic",
+        "confidence": 0.9,
+        "reasoning": "包含明确的时间和地点信息，是个人经历",
+        "extracted_info": {
+          "temporal_context": "2023年5月15日下午3点",
+          "spatial_context": "星巴克咖啡店",
+          "people": [
+            "李明"
+          ]
+        }
+      },
+      "created_at": "2026-01-19T11:28:14.090107",
+      "updated_at": "2026-01-19T11:28:14.090107",
+      "access_count": 3
+    },
+    {
+      "id": 3,
+      "content": "2023年5月15日下午3点，我在星巴克咖啡店遇到了大学同学李明。",
+      "importance": 0.75,
+      "confidence": 0.9,
+      "extracted_info": {
+        "type": "episodic",
+        "confidence": 0.9,
+        "reasoning": "包含明确的时间和地点信息，是个人经历",
+        "extracted_info": {
+          "temporal_context": "2023年5月15日下午3点",
+          "spatial_context": "星巴克咖啡店",
+          "people": [
+            "李明"
+          ]
+        }
+      },
+      "created_at": "2026-01-19T11:39:00.449893",
+      "updated_at": "2026-01-19T11:39:00.449893",
+      "access_count": 2
+    },
+    {
+      "id": 5,
+      "content": "2023年5月15日下午3点，我在星巴克咖啡店遇到了大学同学李明，我们一起聊天，感觉很愉快。",
+      "importance": 0.4,
+      "confidence": 0.95,
+      "extracted_info": {
+        "raw_text": "2023年5月15日下午3点，我在星巴克咖啡店遇到了大学同学李明，我们一起聊天，感觉很愉快。"
+      },
+      "created_at": "2026-01-19T13:06:15.885374",
+      "updated_at": "2026-01-19T13:06:15.885374",
+      "access_count": 1
+    },
+    {
+      "id": 8,
+      "content": "昨天在图书馆学习时，我看到一本关于机器学习的书，觉得很有意思。",
+      "importance": 0.4,
+      "confidence": 0.95,
+      "extracted_info": {
+        "raw_text": "昨天在图书馆学习时，我看到一本关于机器学习的书，觉得很有意思。"
+      },
+      "created_at": "2026-01-19T13:07:13.832410",
+      "updated_at": "2026-01-19T13:07:13.832410",
+      "access_count": 1
+    }
+  ],
+  "semantic_memories": [
+    {
+      "id": 2,
+      "content": "Python是一种高级编程语言，由Guido van Rossum在1991年创建。",
+      "importance": 0.75,
+      "confidence": 0.85,
+      "extracted_info": {
+        "type": "semantic",
+        "confidence": 0.85,
+        "reasoning": "包含事实性陈述和定义",
+        "extracted_info": {
+          "entities": [],
+          "relations": []
+        }
+      },
+      "created_at": "2026-01-19T11:28:14.091147",
+      "updated_at": "2026-01-19T11:28:14.093161",
+      "access_count": 4
+    },
+    {
+      "id": 4,
+      "content": "Python是一种高级编程语言，由Guido van Rossum在1991年创建。",
+      "importance": 0.75,
+      "confidence": 0.85,
+      "extracted_info": {
+        "type": "semantic",
+        "confidence": 0.85,
+        "reasoning": "包含事实性陈述和定义",
+        "extracted_info": {
+          "entities": [],
+          "relations": []
+        }
+      },
+      "created_at": "2026-01-19T11:39:00.451214",
+      "updated_at": "2026-01-19T11:39:00.452888",
+      "access_count": 1
+    },
+    {
+      "id": 6,
+      "content": "Python是一种高级编程语言，由Guido van Rossum在1991年创建。\nPython是一种高级、解释型编程语言，由Guido van Rossum在1991年创建，特点是语法简洁、易读易写。",
+      "importance": 0.3,
+      "confidence": 0.95,
+      "extracted_info": {
+        "raw_text": "Python是一种高级编程语言，由Guido van Rossum在1991年创建。"
+      },
+      "created_at": "2026-01-19T13:06:33.187050",
+      "updated_at": "2026-01-19T13:08:24.108519",
+      "access_count": 1
+    },
+    {
+      "id": 9,
+      "content": "机器学习是人工智能的一个分支，通过算法让计算机从数据中学习模式。",
+      "importance": 0.3,
+      "confidence": 0.95,
+      "extracted_info": {
+        "concept": "机器学习",
+        "definition": "人工智能的一个分支",
+        "function": "通过算法让计算机从数据中学习模式"
+      },
+      "created_at": "2026-01-19T13:07:30.011865",
+      "updated_at": "2026-01-19T13:07:30.011865",
+      "access_count": 1
+    }
+  ],
+  "procedural_memories": [
+    {
+      "id": 7,
+      "content": "如何制作一杯拿铁咖啡：首先准备浓缩咖啡，然后加热牛奶至60-70度，接着将热牛奶倒入杯中，最后用奶泡拉花装饰。",
+      "importance": 0.3,
+      "confidence": 0.95,
+      "extracted_info": {
+        "raw_text": "如何制作一杯拿铁咖啡：首先准备浓缩咖啡，然后加热牛奶至60-70度，接着将热牛奶倒入杯中，最后用奶泡拉花装饰。"
+      },
+      "created_at": "2026-01-19T13:06:53.985210",
+      "updated_at": "2026-01-19T13:06:53.985210",
+      "access_count": 0
+    }
+  ],
+  "export_timestamp": "2026-01-19T13:08:31.468576"
+}
